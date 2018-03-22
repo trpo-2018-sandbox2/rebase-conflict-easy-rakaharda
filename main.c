@@ -14,36 +14,17 @@ int min_element(int *arr, int size)
     }
 
     return min;
-}
+
 
 int main()
 {
     int arr[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3};
 
-<<<<<<< HEAD
-    const int min = min_element(arr, N_ELEMENTS(arr));
-||||||| merged common ancestors
-    const int min = min_element(arr, 7);
-=======
-    const int min = min_element(arr, 10);
->>>>>>> Add more elements to array
-
+   const int min = min_element(arr, 10);
     printf("Array: ");
-<<<<<<< HEAD
-    int i = 0;
-    printf("%d", arr[i]);
-    ++i;
-    for (; i < N_ELEMENTS(arr); ++i) {
-        printf(", %d", arr[i]);
-||||||| merged common ancestors
-    int i;
-    for (i = 0; i < 7; ++i) {
-        printf("%d ", arr[i]);
-=======
     int i;
     for (i = 0; i < 10; ++i) {
         printf("%d ", arr[i]);
->>>>>>> Add more elements to array
     }
     printf("\n");
 
